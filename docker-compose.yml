@@ -1,0 +1,10 @@
+
+services:
+  debian-base-hl:
+    build: .
+    image: hackinglab/debian-base-hl:latest
+    environment:
+      - HL_USER_USERNAME=hacker
+      #- HL_USER_PASSWORD=compass
+      #- HL_ROOT_PASSWORD=<change-me>
+
